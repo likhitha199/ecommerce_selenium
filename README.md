@@ -15,5 +15,7 @@ We can also perform cross browser testing using crossbrowser.xml file
 The same can be run using pom.xml file using maven clean test
 These test cases generate an overall report named STMExtentReport.html in the test-output directory with screenshots for failed test cases
 Pre-requisites for running test cases: Test data: (project_workspace)\apparelStore\src\test\java\com\apparelStore\testData\TestData.xlsx)
+
+
 #Important Note:
 Test data for account creation tests need to be updated once used
