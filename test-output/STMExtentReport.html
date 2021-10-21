@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Oct 20, 2021 09:30:34 pm</span>
+			<span class='label blue darken-3 suite-start-time'>Oct 21, 2021 07:04:07 pm</span>
 			</a>
 		</ul>
 	</div>
@@ -67,7 +67,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -110,10 +110,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>14</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -131,122 +131,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify invalid Login for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:31:04 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:31:04 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:31:13 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+149ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:31:13 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>invalidLoginTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify logoff for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:31:22 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:31:22 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:31:30 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+31ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:31:30 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>logOffTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify valid Login for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:31:39 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:31:39 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:31:45 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+589ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:31:45 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>validLoginTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Verify order placement for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:31:54 pm</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Oct 21, 2021 07:04:21 pm</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:31:54 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:32:41 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 47s+982ms</span>
+	<span class='label start-time'>Oct 21, 2021 07:04:21 pm</span>
+	<span class='label end-time'>Oct 21, 2021 07:05:51 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 30s+320ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -258,361 +153,25 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:32:41 pm</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>7:05:51 pm</td>
 				<td class='step-details'>
-						<span class='badge white-text green'>placeOrder - Test Case Passed </span>
+						<span class='badge white-text red'>placeOrder - Test Case Failed </span>
 					
 				</td>
 			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify review functionality for an item in Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:32:51 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:32:51 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:33:13 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 22s+434ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:33:13 pm</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>7:05:51 pm</td>
 				<td class='step-details'>
-						<span class='badge white-text green'>writeReviewTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify share product buttons for an item in Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:33:36 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:33:36 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:33:50 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+945ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:33:50 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>shareProductTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify items search scenarios for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:34:05 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:34:05 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:34:07 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+335ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:34:07 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>itemsSearchTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify items search scenarios for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:34:41 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:34:41 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:34:42 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+572ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:34:42 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>itemsSearchTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify items search scenarios for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:34:50 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:34:50 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:34:53 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+363ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:34:53 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>itemsSearchTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify items search scenarios for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:35:24 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:35:24 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:35:47 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 23s+136ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:35:47 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>itemsSearchTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify items search scenarios for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:35:57 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:35:57 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:36:00 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+78ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:36:00 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>itemsSearchTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
-					<div class='test-heading'>
-						<span class='test-name'>Verify whether the products of the particular manufacturer are displayed for Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:36:09 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:36:09 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:36:14 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+38ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:36:14 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>manufacturerTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
-					<div class='test-heading'>
-						<span class='test-name'>Create a new account with Ethnic Store with invalid country</span>
-						<span class='test-time'>Oct 20, 2021 09:36:23 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:36:23 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:36:33 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+421ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:36:33 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>createAccountCaseTest - Test Case Passed </span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='14'>
-					<div class='test-heading'>
-						<span class='test-name'>Create a new account with Ethnic Store</span>
-						<span class='test-time'>Oct 20, 2021 09:36:43 pm</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 20, 2021 09:36:43 pm</span>
-	<span class='label end-time'>Oct 20, 2021 09:36:55 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+720ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:36:55 pm</td>
-				<td class='step-details'>
-						<span class='badge white-text green'>createAccountTest - Test Case Passed </span>
+						<span class='badge white-text red'>org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-Q3JCMTD1', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13632, moz:profile: C:\Users\SOWMYA\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1989386a-3f3a-4dc8-8bd9-dc7d431d1442
+*** Element info: {Using=xpath, value=//*[@id="add_to_cart"]/button} - Test Case Failed </span>
 					
 				</td>
 			</tr>
@@ -649,7 +208,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>14</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -661,19 +220,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 20, 2021 09:30:34 pm</div>
+					<div class='panel-lead'>Oct 21, 2021 07:04:07 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 20, 2021 09:36:55 pm</div>
+			 		<div class='panel-lead'>Oct 21, 2021 07:05:51 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 6m 21s+149ms</div>
+					<div class='panel-lead'>0h 1m 43s+830ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -708,14 +267,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 14,
-				passParent: 14,
-				failParent: 0,
+                parentCount: 1,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -740,7 +299,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Verify invalid Login for Ethnic Store":9.149,"Verify logoff for Ethnic Store":8.031,"Verify valid Login for Ethnic Store":5.589,"Verify order placement for Ethnic Store":47.982,"Verify review functionality for an item in Ethnic Store":22.434,"Verify share product buttons for an item in Ethnic Store":13.945,"Verify items search scenarios for Ethnic Store":2.335,"Verify items search scenarios for Ethnic Store":1.572,"Verify items search scenarios for Ethnic Store":3.363,"Verify items search scenarios for Ethnic Store":23.136,"Verify items search scenarios for Ethnic Store":3.078,"Verify whether the products of the particular manufacturer are displayed for Ethnic Store":5.038,"Create a new account with Ethnic Store with invalid country":10.421,"Create a new account with Ethnic Store":11.72
+			        "Verify order placement for Ethnic Store":90.32
 			};
 		</script>
 	

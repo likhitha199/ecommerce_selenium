@@ -11,14 +11,13 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
   	    
-			
 			<class name="com.store.testCases.AccountCreationTests" />
 			<class name="com.store.testCases.LoginLogOffTest" />
 			<class name="com.store.testCases.PlaceOrderTest" />
 			<class name="com.store.testCases.ReviewTest" />
 		   <class name="com.store.testCases.ShareProductTests" />
 			<class name="com.store.testCases.SearchTests" />
-	
+			
 			
 		   
 		</classes>

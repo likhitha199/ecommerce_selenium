@@ -2,17 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ApparelStoreTestSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Apparel Store Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.store.testCases.SearchTests">
-        <methods>
-          <include name="stopTest"/>
-          <include name="beforeMethod"/>
-          <include name="itemsSearchTest" invocation-numbers="0"/>
-          <include name="afterMethod"/>
-          <include name="startReport"/>
-        </methods>
-      </class> <!-- com.store.testCases.SearchTests -->
       <class name="com.store.testCases.PlaceOrderTest">
         <methods>
           <include name="stopTest"/>

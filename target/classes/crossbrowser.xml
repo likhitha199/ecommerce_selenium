@@ -1,4 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- Caution:Consumes more resources and your device may get stuck -->
 <suite name="TestSuite" thread-count="2" parallel="tests" >
 <test name="ChromeTest">
 <parameter name="browser" value="chrome"/>
