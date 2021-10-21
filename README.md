@@ -21,5 +21,5 @@ Pre-requisites for running test cases: Test data: (project_workspace)\apparelSto
 Test data for account creation tests need to be updated once used
 
 
-ChromeDriver version: 94.0
+ChromeDriver version: 94.0,
 GeckoDriver(For Firefox) version:93.0
