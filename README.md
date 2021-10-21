@@ -17,5 +17,9 @@ These test cases generate an overall report named STMExtentReport.html in the te
 Pre-requisites for running test cases: Test data: (project_workspace)\apparelStore\src\test\java\com\apparelStore\testData\TestData.xlsx)
 
 
-#Important Note:
+# Important Note:
 Test data for account creation tests need to be updated once used
+
+
+ChromeDriver version: 94.0
+GeckoDriver(For Firefox) version:93.0
